@@ -352,7 +352,7 @@
             </button>
             
             
-            <form action="">
+            <form>
                 <fieldset>
                     <legend>Leave your contacts and we will call you back</legend>
             
@@ -448,15 +448,18 @@
             
             <div class="footer-forms">
                 <p class="social-text">Subscribe</p>
-                <form action="" class="footer-form">
-                    <input type="email" name="email" id="email" placeholder="E-mail" class="footer-input">
+                <form class="footer-form">
+                    <label for="email" class="footer-form-label">
+                        <input type="email" name="email" id="email" placeholder="E-mail" class="footer-input">
+                        <button class="footer-send-btn" type="submit">
+                            Subscribe
+                            <svg class="icon" width="24" height="24">
+                                <use href="./images/icons.svg#send"></use>
+                            </svg>
+                        </button>
+                    </label>
 
-                    <button class="footer-send-btn">
-                        Subscribe
-                        <svg class="icon" width="24" height="20">
-                            <use href="./images/icons.svg#send"></use>
-                        </svg>
-                    </button>
+                    
                 </form>
             </div>
         </div>
