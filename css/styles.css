@@ -648,7 +648,8 @@ footer .logo {
     color: #404bbf;
 }
 
-.form-checkbox:checked .form-checkbox-label-span {
+.form-checkbox:checked + .form-checkbox-label .form-checkbox-label-span {
+    background-color:#404bbf;
     border: none;
     fill:#F4F4FD;
 }
